@@ -6,6 +6,8 @@
 
 來源：[hmgvibe/hmgvibe.github.io](https://github.com/hmgvibe/hmgvibe.github.io)
 
+右上角可切換深色／淺色模式。首次開啟依照系統偏好，手動切換後在此瀏覽器記住選擇。
+
 ## 內容來源
 
 目前作品內容整理自 `https://github.com/hmgvibe` 的公開 repositories 與 README：
@@ -41,4 +43,5 @@ python -m http.server 8000
 - `index.html`：網站內容與 SEO 標題
 - `styles.css`：完整視覺、桌面與手機版面
 - `script.js`：目錄目前位置提示與頁尾年份
+- `theme.js`：系統配色偏好、主題切換與本機偏好保存
 - `.nojekyll`：讓 GitHub Pages 直接提供靜態檔案
