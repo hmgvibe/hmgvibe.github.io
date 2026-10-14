@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="700" viewBox="0 0 960 700" fill="none">
+  <defs>
+    <radialGradient id="atmosphere"><stop stop-color="#52604A" stop-opacity=".32"/><stop offset="1" stop-color="#101720" stop-opacity="0"/></radialGradient>
+    <linearGradient id="body" x1="280" y1="185" x2="740" y2="550" gradientUnits="userSpaceOnUse"><stop stop-color="#56624F"/><stop offset=".28" stop-color="#2F3E36"/><stop offset="1" stop-color="#1A2924"/></linearGradient>
+    <linearGradient id="rim" x1="220" y1="270" x2="740" y2="470" gradientUnits="userSpaceOnUse"><stop stop-color="#A3B291" stop-opacity=".52"/><stop offset=".4" stop-color="#6E8064" stop-opacity=".2"/><stop offset="1" stop-color="#B3C99B" stop-opacity=".35"/></linearGradient>
+    <radialGradient id="stick"><stop stop-color="#3E5140"/><stop offset=".67" stop-color="#2C3B2E"/><stop offset="1" stop-color="#16271E"/></radialGradient>
+    <radialGradient id="button"><stop stop-color="#DAF0A1"/><stop offset=".78" stop-color="#BDD384"/><stop offset="1" stop-color="#8DA861"/></radialGradient>
+    <filter id="shadow" x="-35%" y="-35%" width="170%" height="190%"><feDropShadow dx="0" dy="30" stdDeviation="25" flood-color="#020705" flood-opacity=".65"/></filter>
+    <filter id="smallShadow" x="-60%" y="-60%" width="220%" height="240%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#061109" flood-opacity=".6"/></filter>
+    <filter id="blur" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="35"/></filter>
+    <pattern id="dots" width="23" height="23" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#C4DBB3" fill-opacity=".05"/></pattern>
+  </defs>
+  <rect width="960" height="700" fill="#101720"/><rect width="960" height="700" fill="url(#dots)"/>
+  <ellipse cx="492" cy="349" rx="443" ry="331" fill="url(#atmosphere)"/>
+  <ellipse cx="474" cy="570" rx="289" ry="44" fill="#020604" fill-opacity=".7" filter="url(#blur)"/>
+  <path d="M74 127H208M74 127V174M886 577H757M886 577V530" stroke="#D5E9B6" stroke-opacity=".18"/>
+  <circle cx="480" cy="350" r="248" stroke="#BFD8A9" stroke-opacity=".05"/><circle cx="480" cy="350" r="277" stroke="#BFD8A9" stroke-opacity=".04" stroke-dasharray="2 10"/>
+  <g transform="rotate(-8 484 360)" filter="url(#shadow)">
+    <path d="M285 211C307 197 354 209 388 225H574C608 209 655 197 677 211C714 234 741 316 769 436C782 492 758 527 727 527C700 527 653 496 614 453H348C309 496 262 527 235 527C204 527 180 492 193 436C221 316 248 234 285 211Z" fill="#16221B"/>
+    <path d="M285 194C307 180 354 192 388 208H574C608 192 655 180 677 194C714 217 741 299 769 419C782 475 758 510 727 510C700 510 653 479 614 436H348C309 479 262 510 235 510C204 510 180 475 193 419C221 299 248 217 285 194Z" fill="url(#body)" stroke="url(#rim)" stroke-width="2"/>
+    <path d="M209 429C241 304 255 239 293 216M756 429C724 304 710 239 672 216" stroke="#A9BE98" stroke-opacity=".2" stroke-width="2" stroke-linecap="round"/>
+    <path d="M386 230H576" stroke="#BFD29F" stroke-opacity=".15" stroke-width="2" stroke-linecap="round"/>
+    <rect x="430" y="243" width="103" height="42" rx="13" fill="#16291E" stroke="#87A072" stroke-opacity=".24"/>
+    <path d="M455 265h-7m3-3-3 3 3 3M507 262h7m-3-3 3 3-3 3" stroke="#C0D896" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="481" cy="264" r="7" stroke="#C0D896" stroke-width="1.2"/>
+    <circle cx="329" cy="298" r="51" fill="#18291F" stroke="#8EA27E" stroke-opacity=".32"/>
+    <circle cx="329" cy="292" r="39" fill="url(#stick)" stroke="#9BB087" stroke-opacity=".44" filter="url(#smallShadow)"/>
+    <circle cx="329" cy="292" r="31" stroke="#92A57E" stroke-opacity=".22"/>
+    <g stroke="#98AE85" stroke-opacity=".36" stroke-linecap="round"><path d="M329 255v4M329 325v4M292 292h4M362 292h4"/></g>
+    <circle cx="565" cy="379" r="53" fill="#17291F" stroke="#8EA27E" stroke-opacity=".3"/>
+    <circle cx="565" cy="373" r="41" fill="url(#stick)" stroke="#9BB087" stroke-opacity=".45" filter="url(#smallShadow)"/>
+    <circle cx="565" cy="373" r="33" stroke="#92A57E" stroke-opacity=".2"/>
+    <path d="M362 348h28v27h27v28h-27v27h-28v-27h-27v-28h27v-27Z" fill="#14241A" stroke="#6F8660" stroke-opacity=".6" filter="url(#smallShadow)"/>
+    <path d="M371 361l5-5 5 5M371 417l5 5 5-5M347 384l-5 5 5 5M405 384l5 5-5 5" stroke="#A3BA86" stroke-opacity=".7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <g filter="url(#smallShadow)"><circle cx="641" cy="261" r="22" fill="url(#button)"/><circle cx="680" cy="301" r="22" fill="url(#button)"/><circle cx="603" cy="301" r="22" fill="url(#button)"/><circle cx="641" cy="340" r="22" fill="url(#button)"/></g>
+    <g stroke="#40582D" stroke-width="1.4" stroke-linejoin="round"><path d="M633 268l8-14 8 14h-16Z"/><circle cx="680" cy="301" r="7"/><rect x="597" y="295" width="12" height="12" rx="1"/><path d="M635 334l12 12M647 334l-12 12"/></g>
+    <path d="M451 379H511M451 387H511" stroke="#7F9770" stroke-opacity=".24" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="481" cy="414" r="3" fill="#CCE996"/>
+    <g fill="#07190F" fill-opacity=".35"><circle cx="262" cy="406" r="1.5"/><circle cx="270" cy="414" r="1.5"/><circle cx="278" cy="422" r="1.5"/><circle cx="286" cy="430" r="1.5"/><circle cx="253" cy="415" r="1.5"/><circle cx="261" cy="423" r="1.5"/><circle cx="269" cy="431" r="1.5"/><circle cx="277" cy="439" r="1.5"/><circle cx="696" cy="406" r="1.5"/><circle cx="688" cy="414" r="1.5"/><circle cx="680" cy="422" r="1.5"/><circle cx="672" cy="430" r="1.5"/><circle cx="705" cy="415" r="1.5"/><circle cx="697" cy="423" r="1.5"/><circle cx="689" cy="431" r="1.5"/><circle cx="681" cy="439" r="1.5"/></g>
+  </g>
+  <g transform="rotate(7 788 191)" filter="url(#smallShadow)"><rect x="743" y="159" width="104" height="58" rx="15" fill="#28382C" stroke="#AAC08B" stroke-opacity=".3"/><path d="M764 184l7 7 15-14" stroke="#CCE995" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/><text x="793" y="190" fill="#C6D7B0" font-family="Segoe UI,Arial,sans-serif" font-size="9" letter-spacing="1.4">PLAY</text></g>
+  <text x="74" y="618" fill="#839479" font-family="Segoe UI,Arial,sans-serif" font-size="10" letter-spacing="2">A NEW WAY TO PLAY</text><path d="M74 638H886" stroke="#C9D9B6" stroke-opacity=".1"/>
+</svg>

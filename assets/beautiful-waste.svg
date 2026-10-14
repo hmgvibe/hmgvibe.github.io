@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="700" viewBox="0 0 960 700" fill="none">
+  <defs>
+    <radialGradient id="atmosphere"><stop stop-color="#656187" stop-opacity=".32"/><stop offset="1" stop-color="#101720" stop-opacity="0"/></radialGradient>
+    <radialGradient id="orb" cx=".34" cy=".24" r=".83"><stop stop-color="#D1D8B7" stop-opacity=".53"/><stop offset=".29" stop-color="#8A98A3" stop-opacity=".54"/><stop offset=".57" stop-color="#566779" stop-opacity=".53"/><stop offset=".83" stop-color="#273E50" stop-opacity=".8"/><stop offset="1" stop-color="#151F31"/></radialGradient>
+    <radialGradient id="haze"><stop stop-color="#CCDAB0" stop-opacity=".7"/><stop offset=".46" stop-color="#9195C9" stop-opacity=".33"/><stop offset="1" stop-color="#9195C9" stop-opacity="0"/></radialGradient>
+    <linearGradient id="ring" x1="160" y1="241" x2="802" y2="464" gradientUnits="userSpaceOnUse"><stop stop-color="#B6CDAF" stop-opacity="0"/><stop offset=".28" stop-color="#B6CDAF" stop-opacity=".48"/><stop offset=".72" stop-color="#C8C7E6" stop-opacity=".56"/><stop offset="1" stop-color="#C8C7E6" stop-opacity="0"/></linearGradient>
+    <linearGradient id="text" x1="314" y1="308" x2="625" y2="371" gradientUnits="userSpaceOnUse"><stop stop-color="#F1F4DE"/><stop offset="1" stop-color="#CFE2C8"/></linearGradient>
+    <filter id="blur" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="37"/></filter>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="10"/></filter>
+    <filter id="shadow" x="-35%" y="-35%" width="170%" height="190%"><feDropShadow dx="0" dy="28" stdDeviation="25" flood-color="#02060B" flood-opacity=".55"/></filter>
+    <clipPath id="orbClip"><circle cx="483" cy="341" r="202"/></clipPath>
+  </defs>
+  <rect width="960" height="700" fill="#101720"/>
+  <ellipse cx="483" cy="350" rx="443" ry="336" fill="url(#atmosphere)"/>
+  <circle cx="480" cy="341" r="270" fill="url(#haze)" opacity=".32" filter="url(#blur)"/>
+  <ellipse cx="483" cy="583" rx="189" ry="29" fill="#060811" fill-opacity=".65" filter="url(#blur)"/>
+  <path d="M74 121H213M74 121V168M886 583H748M886 583V536" stroke="#C5CAD8" stroke-opacity=".18"/>
+  <circle cx="483" cy="341" r="249" stroke="#B5BBCC" stroke-opacity=".055"/><circle cx="483" cy="341" r="278" stroke="#B5BBCC" stroke-opacity=".04"/>
+  <ellipse cx="483" cy="350" rx="322" ry="116" transform="rotate(-17 483 350)" stroke="url(#ring)" stroke-width="1.4"/>
+  <circle cx="483" cy="341" r="202" fill="url(#orb)" stroke="#B5C6C6" stroke-opacity=".27" filter="url(#shadow)"/>
+  <g clip-path="url(#orbClip)">
+    <ellipse cx="423" cy="237" rx="147" ry="113" fill="#D2DABE" fill-opacity=".17" filter="url(#blur)"/>
+    <ellipse cx="587" cy="430" rx="119" ry="136" fill="#AF97C8" fill-opacity=".16" filter="url(#blur)"/>
+    <path d="M276 308C347 212 540 167 705 253M273 334C354 239 530 198 700 282" stroke="#D2DECA" stroke-opacity=".065"/>
+    <path d="M283 445C376 511 570 524 683 423M287 464C394 533 571 536 676 458" stroke="#A4B1D1" stroke-opacity=".06"/>
+    <circle cx="483" cy="341" r="177" stroke="#D1D9CA" stroke-opacity=".075" stroke-dasharray="1 9"/>
+    <text x="483" y="280" text-anchor="middle" fill="#CBD6CE" fill-opacity=".7" font-family="Segoe UI,Arial,sans-serif" font-size="11" letter-spacing="5">SLOW DOWN</text>
+    <text x="483" y="374" text-anchor="middle" fill="#D5E7C8" fill-opacity=".22" font-family="Segoe UI Light,Segoe UI,Arial,sans-serif" font-size="89" font-weight="200" letter-spacing="3" filter="url(#glow)">10:24</text>
+    <text x="483" y="374" text-anchor="middle" fill="url(#text)" font-family="Segoe UI Light,Segoe UI,Arial,sans-serif" font-size="89" font-weight="200" letter-spacing="3">10:24</text>
+    <path d="M440 409H526" stroke="#D1DEC4" stroke-opacity=".3"/>
+    <text x="483" y="439" text-anchor="middle" fill="#C4D2CB" fill-opacity=".6" font-family="Segoe UI,Arial,sans-serif" font-size="9" letter-spacing="4">STAY A LITTLE</text>
+    <ellipse cx="411" cy="206" rx="76" ry="26" transform="rotate(-25 411 206)" fill="#E4EDC9" fill-opacity=".12" filter="url(#glow)"/>
+  </g>
+  <path d="M188 418C246 468 445 466 619 413C707 386 768 351 790 317" stroke="url(#ring)" stroke-width="1.6"/>
+  <path d="M188 418C246 468 445 466 619 413C707 386 768 351 790 317" stroke="url(#ring)" stroke-width="5" stroke-opacity=".27" filter="url(#glow)"/>
+  <circle cx="756" cy="374" r="9" fill="#C5DE9C"/><circle cx="756" cy="374" r="15" stroke="#C5DE9C" stroke-opacity=".16"/>
+  <circle cx="228" cy="259" r="4" fill="#CBC8E5" fill-opacity=".8"/><circle cx="718" cy="189" r="2" fill="#B7C8BC" fill-opacity=".7"/>
+  <circle cx="194" cy="497" r="1.5" fill="#B7C8BC" fill-opacity=".6"/><circle cx="794" cy="495" r="1.5" fill="#B7C8BC" fill-opacity=".6"/>
+  <g transform="translate(420 566)"><rect width="126" height="38" rx="19" fill="#273139" stroke="#A9C0AD" stroke-opacity=".17"/><circle cx="23" cy="19" r="6" stroke="#C3D2B6" stroke-width="1.2"/><path d="M23 15v4l3 2" stroke="#C3D2B6" stroke-width="1.2" stroke-linecap="round"/><text x="41" y="23" fill="#BFCABC" font-family="Segoe UI,Arial,sans-serif" font-size="9" letter-spacing="2">AMBIENT</text></g>
+  <text x="74" y="626" fill="#8993A5" font-family="Segoe UI,Arial,sans-serif" font-size="10" letter-spacing="2">TIME CAN BE BEAUTIFUL</text><path d="M74 645H886" stroke="#C8CDDA" stroke-opacity=".1"/>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="700" viewBox="0 0 960 700" fill="none">
+  <defs>
+    <radialGradient id="atmosphere"><stop stop-color="#637944" stop-opacity=".38"/><stop offset="1" stop-color="#101720" stop-opacity="0"/></radialGradient>
+    <linearGradient id="panel" x1="245" y1="140" x2="650" y2="540" gradientUnits="userSpaceOnUse"><stop stop-color="#2B373B"/><stop offset="1" stop-color="#18232B"/></linearGradient>
+    <linearGradient id="lime" x1="330" y1="250" x2="600" y2="460" gradientUnits="userSpaceOnUse"><stop stop-color="#E1F8A0"/><stop offset="1" stop-color="#A5CC61"/></linearGradient>
+    <linearGradient id="glass" x1="650" y1="120" x2="730" y2="540" gradientUnits="userSpaceOnUse"><stop stop-color="#D8E9C3" stop-opacity=".18"/><stop offset="1" stop-color="#D8E9C3" stop-opacity=".025"/></linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="190%"><feDropShadow dx="0" dy="30" stdDeviation="27" flood-color="#04080B" flood-opacity=".5"/></filter>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="38"/></filter>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse"><path d="M56 0H0V56" stroke="#C4D5CE" stroke-opacity=".035"/></pattern>
+  </defs>
+  <rect width="960" height="700" fill="#101720"/>
+  <rect width="960" height="700" fill="url(#grid)"/>
+  <ellipse cx="483" cy="341" rx="446" ry="346" fill="url(#atmosphere)"/>
+  <ellipse cx="520" cy="590" rx="245" ry="33" fill="#02070A" fill-opacity=".6" filter="url(#glow)"/>
+  <path d="M74 108H217M74 108V157M886 588H754M886 588V539" stroke="#DBF1BA" stroke-opacity=".14"/>
+  <circle cx="815" cy="146" r="5" fill="#CCE88B"/>
+  <path d="M824 146H862" stroke="#CCE88B" stroke-opacity=".4"/>
+  <g transform="rotate(-7 482 352)" filter="url(#shadow)">
+    <rect x="252" y="134" width="524" height="382" rx="23" fill="url(#glass)" stroke="#CEDCBF" stroke-opacity=".17"/>
+    <rect x="230" y="156" width="524" height="382" rx="23" fill="#1B282C" stroke="#65766B" stroke-opacity=".3"/>
+    <rect x="207" y="178" width="524" height="382" rx="23" fill="url(#panel)" stroke="#87998C" stroke-opacity=".4"/>
+    <path d="M208 240H731" stroke="#8F9F94" stroke-opacity=".18"/>
+    <circle cx="234" cy="211" r="4" fill="#E1F8A0"/><circle cx="249" cy="211" r="4" fill="#E1F8A0" fill-opacity=".28"/><circle cx="264" cy="211" r="4" fill="#E1F8A0" fill-opacity=".12"/>
+    <text x="296" y="216" fill="#E6ECE6" font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2">WEEKLY PLAN</text>
+    <rect x="648" y="199" width="57" height="24" rx="12" fill="#D7F596" fill-opacity=".12" stroke="#D7F596" stroke-opacity=".22"/>
+    <path d="M666 211H687M677 204V218" stroke="#D7F596" stroke-width="1.3"/>
+    <g fill="#AAB8B0" font-family="Segoe UI,Arial,sans-serif" font-size="10" letter-spacing="1.6"><text x="253" y="274">MON</text><text x="340" y="274">TUE</text><text x="428" y="274">WED</text><text x="514" y="274">THU</text><text x="603" y="274">FRI</text></g>
+    <g stroke="#829586" stroke-opacity=".12"><path d="M239 291H697M239 348H697M239 405H697M239 462H697M239 519H697"/><path d="M319 290V519M407 290V519M495 290V519M583 290V519M671 290V519"/></g>
+    <rect x="239" y="294" width="77" height="107" rx="11" fill="#9AA7D0"/>
+    <path d="M254 313H282M254 322H292" stroke="#293442" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="254" cy="382" r="3" fill="#293442"/><path d="M264 382H297" stroke="#293442" stroke-opacity=".4" stroke-width="2" stroke-linecap="round"/>
+    <rect x="327" y="351" width="165" height="108" rx="11" fill="url(#lime)"/>
+    <text x="346" y="379" fill="#2B3824" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="600">Deep focus</text>
+    <path d="M346 394H404M346 404H438" stroke="#314129" stroke-opacity=".32" stroke-width="3" stroke-linecap="round"/>
+    <path d="M459 432l6 6 12-14" stroke="#314129" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="503" y="294" width="165" height="50" rx="11" fill="#C3D4CE"/>
+    <path d="M518 310H571M518 321H601" stroke="#32443D" stroke-opacity=".45" stroke-width="3" stroke-linecap="round"/>
+    <rect x="503" y="408" width="77" height="108" rx="11" fill="#2D3B39" stroke="#D0EABC" stroke-opacity=".2"/>
+    <path d="M520 433H558M520 444H544" stroke="#B5C7B8" stroke-opacity=".5" stroke-width="3" stroke-linecap="round"/>
+    <rect x="591" y="465" width="77" height="51" rx="11" fill="#B8ACBC"/>
+    <path d="M606 483H645M606 494H629" stroke="#483D49" stroke-opacity=".5" stroke-width="3" stroke-linecap="round"/>
+    <path d="M455 291V519" stroke="#E5FFC0" stroke-opacity=".5" stroke-width="1.5" stroke-dasharray="3 5"/>
+    <circle cx="455" cy="292" r="4" fill="#E5FFC0"/>
+  </g>
+  <g transform="rotate(9 741 435)" filter="url(#shadow)">
+    <rect x="669" y="368" width="170" height="142" rx="18" fill="#263532" stroke="#A6BE9A" stroke-opacity=".38"/>
+    <circle cx="706" cy="407" r="17" fill="#D8F396"/><path d="M699 407l5 5 9-11" stroke="#304227" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="734" y="411" fill="#E5EDDF" font-family="Segoe UI,Arial,sans-serif" font-size="11" letter-spacing="1">ON TRACK</text>
+    <path d="M692 447H792M692 459H760" stroke="#B7C7B3" stroke-opacity=".32" stroke-width="4" stroke-linecap="round"/>
+    <rect x="692" y="479" width="120" height="5" rx="2.5" fill="#475744"/><rect x="692" y="479" width="81" height="5" rx="2.5" fill="#CDEB8D"/>
+  </g>
+  <g fill="#829486" font-family="Segoe UI,Arial,sans-serif" font-size="10" letter-spacing="2"><text x="74" y="603">TIME / ATTENTION / FLOW</text><text x="767" y="603">STUDY SPACE</text></g>
+  <path d="M74 623H887" stroke="#BBCBB4" stroke-opacity=".1"/>
+</svg>

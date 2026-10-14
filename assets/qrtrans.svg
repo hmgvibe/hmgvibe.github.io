@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="700" viewBox="0 0 960 700" fill="none">
+  <defs>
+    <radialGradient id="atmosphere"><stop stop-color="#677B37" stop-opacity=".32"/><stop offset="1" stop-color="#101720" stop-opacity="0"/></radialGradient>
+    <linearGradient id="panel" x1="238" y1="174" x2="645" y2="514" gradientUnits="userSpaceOnUse"><stop stop-color="#2B3734"/><stop offset="1" stop-color="#151F24"/></linearGradient>
+    <linearGradient id="beam" x1="198" y1="0" x2="689" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#CFF77E" stop-opacity="0"/><stop offset=".3" stop-color="#DFFFAD"/><stop offset=".7" stop-color="#DFFFAD"/><stop offset="1" stop-color="#CFF77E" stop-opacity="0"/></linearGradient>
+    <linearGradient id="trail" x1="0" y1="285" x2="0" y2="383" gradientUnits="userSpaceOnUse"><stop stop-color="#D6F89B" stop-opacity="0"/><stop offset="1" stop-color="#D6F89B" stop-opacity=".17"/></linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="220%"><feDropShadow dx="0" dy="28" stdDeviation="27" flood-color="#03080A" flood-opacity=".6"/></filter>
+    <filter id="glow" x="-40%" y="-300%" width="180%" height="700%"><feGaussianBlur stdDeviation="8"/></filter>
+    <filter id="blur" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="40"/></filter>
+    <pattern id="grid" width="52" height="52" patternUnits="userSpaceOnUse"><path d="M52 0H0V52" stroke="#CCE1B8" stroke-opacity=".035"/></pattern>
+  </defs>
+  <rect width="960" height="700" fill="#101720"/><rect width="960" height="700" fill="url(#grid)"/>
+  <ellipse cx="450" cy="350" rx="440" ry="342" fill="url(#atmosphere)"/>
+  <ellipse cx="433" cy="574" rx="222" ry="35" fill="#02070A" fill-opacity=".65" filter="url(#blur)"/>
+  <path d="M74 126H200M74 126V166M886 574H772M886 574V534" stroke="#CFE8AA" stroke-opacity=".19"/>
+  <path d="M175 327C140 392 161 498 248 553M609 164C697 157 757 202 770 280" stroke="#BEDE8C" stroke-opacity=".18" stroke-dasharray="3 8"/>
+  <g transform="rotate(-7 452 346)" filter="url(#shadow)">
+    <rect x="237" y="144" width="445" height="431" rx="27" fill="#B9D597" fill-opacity=".06" stroke="#B9D597" stroke-opacity=".15"/>
+    <rect x="217" y="163" width="445" height="431" rx="27" fill="url(#panel)" stroke="#83937A" stroke-opacity=".48"/>
+    <circle cx="244" cy="190" r="3" fill="#D4EBA9"/><text x="261" y="194" fill="#B8CBB1" font-family="Segoe UI,Arial,sans-serif" font-size="10" letter-spacing="2">OPTICAL TRANSFER</text>
+    <path d="M603 190H630" stroke="#B8CBB1" stroke-opacity=".48" stroke-width="2" stroke-linecap="round"/>
+    <rect x="253" y="225" width="374" height="321" rx="14" fill="#101C1D" stroke="#617A5C" stroke-opacity=".18"/>
+    <g fill="#D7EDBC">
+      <rect x="288" y="260" width="28" height="28" rx="5"/><rect x="327" y="260" width="64" height="28" rx="5"/><rect x="406" y="260" width="28" height="28" rx="5"/><rect x="445" y="260" width="64" height="28" rx="5"/><rect x="563" y="260" width="28" height="28" rx="5"/>
+      <rect x="288" y="300" width="64" height="28" rx="5"/><rect x="367" y="300" width="28" height="68" rx="5"/><rect x="406" y="300" width="65" height="28" rx="5"/><rect x="485" y="300" width="28" height="28" rx="5"/><rect x="524" y="300" width="67" height="28" rx="5"/>
+      <rect x="327" y="340" width="28" height="28" rx="5"/><rect x="446" y="340" width="28" height="28" rx="5"/><rect x="485" y="340" width="66" height="28" rx="5"/>
+      <rect x="288" y="381" width="28" height="66" rx="5"/><rect x="327" y="381" width="66" height="28" rx="5"/><rect x="406" y="381" width="28" height="28" rx="5"/><rect x="445" y="381" width="66" height="28" rx="5"/><rect x="564" y="381" width="28" height="66" rx="5"/>
+      <rect x="327" y="421" width="28" height="28" rx="5"/><rect x="367" y="421" width="66" height="28" rx="5"/><rect x="445" y="421" width="28" height="28" rx="5"/><rect x="524" y="421" width="28" height="28" rx="5"/>
+      <rect x="288" y="461" width="66" height="28" rx="5"/><rect x="367" y="461" width="28" height="28" rx="5"/><rect x="406" y="461" width="67" height="28" rx="5"/><rect x="485" y="461" width="28" height="28" rx="5"/><rect x="524" y="461" width="67" height="28" rx="5"/>
+    </g>
+    <g fill="#729967"><rect x="524" y="260" width="28" height="28" rx="5"/><rect x="288" y="340" width="28" height="28" rx="5"/><rect x="406" y="340" width="28" height="28" rx="5"/><rect x="564" y="340" width="28" height="28" rx="5"/><rect x="524" y="381" width="28" height="28" rx="5"/><rect x="485" y="421" width="28" height="28" rx="5"/></g>
+    <g stroke="#DAFFA7" stroke-width="2" stroke-linecap="round"><path d="M271 255V242H284M609 255V242H596M271 489V505H284M609 489V505H596"/></g>
+    <rect x="253" y="286" width="374" height="97" fill="url(#trail)"/>
+    <path d="M198 382H689" stroke="url(#beam)" stroke-width="12" filter="url(#glow)"/><path d="M198 382H689" stroke="url(#beam)" stroke-width="2"/>
+    <text x="350" y="573" fill="#94AC84" font-family="Segoe UI,Arial,sans-serif" font-size="9" letter-spacing="3">VISUAL CHANNEL</text>
+  </g>
+  <g transform="rotate(8 741 358)" filter="url(#shadow)">
+    <rect x="669" y="264" width="164" height="199" rx="23" fill="#23332C" stroke="#B9D996" stroke-opacity=".44"/>
+    <rect x="688" y="283" width="126" height="118" rx="13" fill="#17251E"/>
+    <path d="M734 316h28v42h-28v-42Z" stroke="#C7E895" stroke-width="1.7"/><path d="M753 316v10h9M741 342h14M741 349h10" stroke="#C7E895" stroke-width="1.5" stroke-linecap="round"/>
+    <circle cx="791" cy="377" r="10" fill="#D0ED99"/><path d="M787 377l3 3 5-6" stroke="#263A22" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="690" y="427" fill="#D5E4C9" font-family="Segoe UI,Arial,sans-serif" font-size="11" letter-spacing="1.5">RECEIVE</text>
+    <path d="M777 422h20m-6-6 6 6-6 6" stroke="#D5E4C9" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g fill="#CBEAA0"><circle cx="656" cy="328" r="3"/><circle cx="635" cy="317" r="2.5"/><circle cx="614" cy="310" r="2"/></g>
+  <text x="74" y="625" fill="#82947B" font-family="Segoe UI,Arial,sans-serif" font-size="10" letter-spacing="2">FILES, THROUGH A DIFFERENT LENS</text><path d="M74 644H886" stroke="#CCE0B9" stroke-opacity=".1"/>
+</svg>

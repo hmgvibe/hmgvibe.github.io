@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="700" viewBox="0 0 960 700" fill="none">
+  <defs>
+    <radialGradient id="atmosphere"><stop stop-color="#5C5485" stop-opacity=".34"/><stop offset="1" stop-color="#101720" stop-opacity="0"/></radialGradient>
+    <linearGradient id="sky" x1="198" y1="226" x2="464" y2="492" gradientUnits="userSpaceOnUse"><stop stop-color="#B8A7D9"/><stop offset=".5" stop-color="#D9B4B5"/><stop offset="1" stop-color="#EDD0A8"/></linearGradient>
+    <linearGradient id="mountain" x1="189" y1="318" x2="490" y2="458" gradientUnits="userSpaceOnUse"><stop stop-color="#596878"/><stop offset="1" stop-color="#777885"/></linearGradient>
+    <linearGradient id="lake" x1="480" y1="285" x2="725" y2="538" gradientUnits="userSpaceOnUse"><stop stop-color="#8BC3C4"/><stop offset=".5" stop-color="#537E8A"/><stop offset="1" stop-color="#294555"/></linearGradient>
+    <linearGradient id="night" x1="625" y1="184" x2="810" y2="430" gradientUnits="userSpaceOnUse"><stop stop-color="#6B728F"/><stop offset=".5" stop-color="#957F9B"/><stop offset="1" stop-color="#BB958E"/></linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="200%"><feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#05070C" flood-opacity=".6"/></filter>
+    <filter id="blur" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="35"/></filter>
+    <clipPath id="scene1"><rect x="165" y="211" width="360" height="266" rx="9"/></clipPath>
+    <clipPath id="scene2"><rect x="424" y="288" width="320" height="250" rx="9"/></clipPath>
+    <clipPath id="scene3"><rect x="653" y="199" width="155" height="169" rx="8"/></clipPath>
+  </defs>
+  <rect width="960" height="700" fill="#101720"/>
+  <ellipse cx="482" cy="356" rx="458" ry="345" fill="url(#atmosphere)"/>
+  <ellipse cx="479" cy="587" rx="302" ry="35" fill="#04070D" fill-opacity=".6" filter="url(#blur)"/>
+  <path d="M77 122H254M77 122V168M884 584H738M884 584V538" stroke="#CFCDD9" stroke-opacity=".19"/>
+  <path d="M117 370C127 207 281 111 444 143M841 354C824 515 655 608 509 574" stroke="#B4A9CE" stroke-opacity=".1"/>
+  <g transform="rotate(-10 347 350)" filter="url(#shadow)">
+    <rect x="146" y="168" width="398" height="351" rx="17" fill="#D4D8CF"/>
+    <rect x="146" y="168" width="398" height="351" rx="17" stroke="#FBFBEE" stroke-opacity=".45"/>
+    <text x="168" y="194" fill="#46514B" font-family="Segoe UI,Arial,sans-serif" font-size="9" letter-spacing="2">MOMENTS / LANDSCAPES</text>
+    <circle cx="519" cy="189" r="3" fill="#707A69"/>
+    <g clip-path="url(#scene1)">
+      <rect x="165" y="211" width="360" height="266" fill="url(#sky)"/>
+      <circle cx="443" cy="274" r="39" fill="#F7D6AF"/>
+      <path d="M146 415L241 294 288 349 341 303 431 415 533 371V500H146Z" fill="url(#mountain)"/>
+      <path d="M222 318l19-24 23 27-21-9-21 6ZM320 327l21-24 25 31-25-9-21 2Z" fill="#D3C7D3" fill-opacity=".64"/>
+      <path d="M143 423C199 386 243 382 295 408C365 442 441 405 547 420V504H143Z" fill="#344E50"/>
+      <path d="M167 458C252 430 303 454 375 447C433 441 472 462 546 453V498H167Z" fill="#2A4140"/>
+      <path d="M167 239H249M181 246H231" stroke="#F4E8E5" stroke-opacity=".27" stroke-width="2" stroke-linecap="round"/>
+      <path d="M317 373C331 410 349 430 346 477" stroke="#BDAAA2" stroke-opacity=".6" stroke-width="7"/>
+    </g>
+    <path d="M171 495H210" stroke="#4E5B4F" stroke-opacity=".45" stroke-width="2" stroke-linecap="round"/>
+    <text x="454" y="499" fill="#667263" font-family="Segoe UI,Arial,sans-serif" font-size="8" letter-spacing="2">COLLECTION</text>
+  </g>
+  <g transform="rotate(8 728 280)" filter="url(#shadow)">
+    <rect x="637" y="183" width="187" height="219" rx="14" fill="#2C3440" stroke="#9A9AA6" stroke-opacity=".42"/>
+    <g clip-path="url(#scene3)"><rect x="653" y="199" width="155" height="169" fill="url(#night)"/><circle cx="755" cy="243" r="23" fill="#D8C7BC" fill-opacity=".8"/><path d="M643 325L689 273 729 318 769 292 820 338V386H643Z" fill="#505A6D"/><path d="M646 352L685 324 718 342 768 327 818 354V386H646Z" fill="#364A57"/></g>
+    <text x="655" y="386" fill="#C8CED0" font-family="Segoe UI,Arial,sans-serif" font-size="8" letter-spacing="2">LITTLE ESCAPES</text>
+  </g>
+  <g transform="rotate(7 584 421)" filter="url(#shadow)">
+    <rect x="405" y="267" width="357" height="316" rx="17" fill="#273840" stroke="#A7B7B5" stroke-opacity=".5"/>
+    <g clip-path="url(#scene2)">
+      <rect x="424" y="288" width="320" height="250" fill="url(#lake)"/>
+      <path d="M416 350L497 302 568 355 637 316 754 378V409H416Z" fill="#628A88"/>
+      <path d="M416 369L472 340 522 370 583 350 649 384 754 365V429H416Z" fill="#416A6A"/>
+      <path d="M415 407C499 384 575 409 634 401C680 395 718 390 755 401V558H415Z" fill="#3C7780"/>
+      <path d="M466 433H699M493 444H655M443 461H620M542 476H720M469 500H691M497 514H627" stroke="#B4D7CB" stroke-opacity=".24" stroke-width="2" stroke-linecap="round"/>
+      <path d="M691 350L712 538H748V372Z" fill="#234E4D"/><path d="M680 421l22-42 22 48Z" fill="#355C4C"/><path d="M699 357l-17 32h40Z" fill="#43674F"/>
+      <path d="M421 495C472 482 482 488 503 501C529 516 555 518 585 544H421Z" fill="#293F3D"/>
+    </g>
+    <path d="M427 559H482" stroke="#D9E5D9" stroke-opacity=".5" stroke-width="2" stroke-linecap="round"/>
+    <path d="M715 551l5 5 5-5c4-4 10 1 5 6l-10 10-10-10c-5-5 1-10 5-6Z" stroke="#B9D5C3" stroke-width="1.3"/>
+  </g>
+  <g filter="url(#shadow)"><circle cx="793" cy="487" r="36" fill="#D2EC9B"/><path d="M780 491c-7-1-9-12-1-15 3-10 19-10 22 1 10-1 13 14 3 16h-5M792 483v18m-6-6 6 6 6-6" stroke="#324C2A" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="77" y="623" fill="#8D94A2" font-family="Segoe UI,Arial,sans-serif" font-size="10" letter-spacing="2">YOUR MEMORIES, A LITTLE CLOSER</text><path d="M77 643H884" stroke="#C8CAD3" stroke-opacity=".1"/>
+</svg>

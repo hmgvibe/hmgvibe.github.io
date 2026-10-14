@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="700" viewBox="0 0 960 700" fill="none">
+  <defs>
+    <radialGradient id="atmosphere"><stop stop-color="#66684C" stop-opacity=".31"/><stop offset="1" stop-color="#101720" stop-opacity="0"/></radialGradient>
+    <linearGradient id="paper" x1="269" y1="179" x2="654" y2="563" gradientUnits="userSpaceOnUse"><stop stop-color="#E9E8D7"/><stop offset="1" stop-color="#C8D0BB"/></linearGradient>
+    <linearGradient id="back" x1="577" y1="145" x2="724" y2="552" gradientUnits="userSpaceOnUse"><stop stop-color="#647166"/><stop offset="1" stop-color="#303C36"/></linearGradient>
+    <linearGradient id="lock" x1="670" y1="348" x2="748" y2="471" gradientUnits="userSpaceOnUse"><stop stop-color="#DCFAA5"/><stop offset="1" stop-color="#A4C472"/></linearGradient>
+    <filter id="shadow" x="-45%" y="-40%" width="190%" height="200%"><feDropShadow dx="0" dy="26" stdDeviation="26" flood-color="#030708" flood-opacity=".52"/></filter>
+    <filter id="blur" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="33"/></filter>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M64 0H0V64" stroke="#C5D8BD" stroke-opacity=".03"/></pattern>
+  </defs>
+  <rect width="960" height="700" fill="#101720"/><rect width="960" height="700" fill="url(#grid)"/>
+  <ellipse cx="493" cy="347" rx="427" ry="335" fill="url(#atmosphere)"/>
+  <ellipse cx="514" cy="593" rx="243" ry="35" fill="#03080A" fill-opacity=".65" filter="url(#blur)"/>
+  <path d="M76 118H231M76 118V165M884 586H763M884 586V538" stroke="#CAD9BB" stroke-opacity=".18"/>
+  <g transform="rotate(8 520 345)" filter="url(#shadow)"><rect x="359" y="154" width="327" height="411" rx="18" fill="url(#back)" stroke="#A5B796" stroke-opacity=".3"/><path d="M388 197H572M388 216H617M388 264H579M388 284H612M388 304H586M388 324H598" stroke="#C4CEB7" stroke-opacity=".25" stroke-width="4" stroke-linecap="round"/><path d="M386 431H601M386 451H560M386 471H614" stroke="#C4CEB7" stroke-opacity=".18" stroke-width="4" stroke-linecap="round"/></g>
+  <g transform="rotate(-7 431 356)" filter="url(#shadow)">
+    <rect x="239" y="172" width="369" height="408" rx="17" fill="url(#paper)" stroke="#FCFCEB" stroke-opacity=".5"/>
+    <path d="M274 202H294M279 196l-5 6 5 6" stroke="#6D7D66" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="469" y="205" fill="#6D7D66" font-family="Segoe UI,Arial,sans-serif" font-size="9" letter-spacing="2">NOTEBOOK</text>
+    <text x="274" y="270" fill="#334838" font-family="Georgia,Times New Roman,serif" font-size="34">A place for</text>
+    <text x="274" y="310" fill="#334838" font-family="Georgia,Times New Roman,serif" font-size="34">your thoughts.</text>
+    <path d="M274 337H572" stroke="#819276" stroke-opacity=".3"/>
+    <g stroke="#78896D" stroke-opacity=".38" stroke-width="4" stroke-linecap="round"><path d="M274 366H537M274 383H559M274 400H494"/><path d="M300 444H502M300 464H527M300 484H461"/></g>
+    <g stroke="#6A8259" stroke-width="1.4"><rect x="275" y="437" width="11" height="11" rx="2"/><rect x="275" y="457" width="11" height="11" rx="2"/><rect x="275" y="477" width="11" height="11" rx="2"/></g>
+    <path d="M278 442l3 3 4-6M278 462l3 3 4-6" stroke="#6A8259" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M274 526H362" stroke="#71866A" stroke-opacity=".3" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="550" cy="534" r="13" fill="#A3B788"/><path d="M545 534h10m-5-5v10" stroke="#385033" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M549 172v49l14-8 14 8v-49" fill="#93A882"/>
+  </g>
+  <g transform="rotate(8 679 434)" filter="url(#shadow)">
+    <rect x="602" y="331" width="167" height="194" rx="24" fill="#23332D" stroke="#B6CAA1" stroke-opacity=".4"/>
+    <rect x="623" y="353" width="125" height="116" rx="17" fill="#17291F"/>
+    <path d="M667 408v-15c0-25 37-25 37 0v15" stroke="#C8E496" stroke-width="6" stroke-linecap="round"/>
+    <rect x="655" y="401" width="61" height="48" rx="11" fill="url(#lock)"/>
+    <circle cx="685" cy="420" r="5" fill="#40552F"/><path d="M685 424v8" stroke="#40552F" stroke-width="3" stroke-linecap="round"/>
+    <text x="627" y="495" fill="#C9D9BD" font-family="Segoe UI,Arial,sans-serif" font-size="10" letter-spacing="1.7">YOUR SPACE</text>
+    <circle cx="736" cy="490" r="3" fill="#CEE895"/>
+  </g>
+  <g transform="rotate(-14 160 332)" filter="url(#shadow)"><rect x="132" y="256" width="56" height="145" rx="13" fill="#2D3D31" stroke="#A6C589" stroke-opacity=".3"/><path d="M149 320v-20l9-9 9 9v20l-9 10-9-10Z" stroke="#C6E79A" stroke-width="1.5" stroke-linejoin="round"/><path d="M146 360H174" stroke="#8AAA70" stroke-width="2" stroke-linecap="round"/></g>
+  <text x="76" y="620" fill="#85937E" font-family="Segoe UI,Arial,sans-serif" font-size="10" letter-spacing="2">WRITE / COLLECT / RETURN</text><path d="M76 639H884" stroke="#CAD7BB" stroke-opacity=".1"/>
+</svg>
