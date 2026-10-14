@@ -2,6 +2,7 @@ document.querySelector("#year").textContent = new Date().getFullYear();
 const projectLinks = [...document.querySelectorAll(".project-nav a")];
 const products = [...document.querySelectorAll(".product")];
 function updateCurrentProject() {
+  if (products.length === 0) return;
   let current = products[0];
   for (const product of products) {
     if (product.getBoundingClientRect().top <= 180) current = product;

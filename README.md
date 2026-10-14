@@ -20,8 +20,10 @@
 - MPad
 - Beautiful Waste
 
-各項目的介紹直接顯示，透過目錄可前往對應項目。下載入口使用各 repository 的
-`releases/latest`，版本發布後不必手動修改連結。若要更新功能介紹，修改 `index.html`。
+首頁保留項目摘要。點擊項目名稱或「詳細介紹」可前往 `projects/` 下的獨立介紹頁，
+閱讀適用情境、功能特色、開始使用、系統需求與常見問題；每頁都有固定網址可分享。
+下載入口使用各 repository 的 `releases/latest`，版本發布後不必手動修改連結。
+首頁摘要位於 `index.html`，詳細內容位於 `projects/<項目名稱>.html`。
 
 ## 本機預覽
 
@@ -41,6 +43,7 @@ python -m http.server 8000
 ## 檔案
 
 - `index.html`：網站內容與 SEO 標題
+- `projects/*.html`：七個項目的獨立詳細介紹頁
 - `styles.css`：完整視覺、桌面與手機版面
 - `script.js`：目錄目前位置提示與頁尾年份
 - `theme.js`：系統配色偏好、主題切換與本機偏好保存
