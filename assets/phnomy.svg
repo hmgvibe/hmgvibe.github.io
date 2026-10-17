@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="700" viewBox="0 0 960 700" fill="none">
+  <defs>
+    <radialGradient id="atmosphere"><stop stop-color="#5C7950" stop-opacity=".35"/><stop offset="1" stop-color="#101720" stop-opacity="0"/></radialGradient>
+    <linearGradient id="phone" x1="344" y1="123" x2="593" y2="578" gradientUnits="userSpaceOnUse"><stop stop-color="#65765E"/><stop offset=".35" stop-color="#31493B"/><stop offset="1" stop-color="#1C3029"/></linearGradient>
+    <linearGradient id="cream" x1="354" y1="138" x2="570" y2="550" gradientUnits="userSpaceOnUse"><stop stop-color="#FAF8EB"/><stop offset="1" stop-color="#E8ECDC"/></linearGradient>
+    <linearGradient id="green" x1="396" y1="254" x2="541" y2="418" gradientUnits="userSpaceOnUse"><stop stop-color="#4C7151"/><stop offset="1" stop-color="#204B39"/></linearGradient>
+    <linearGradient id="glass" x1="594" y1="373" x2="767" y2="532" gradientUnits="userSpaceOnUse"><stop stop-color="#354B3D"/><stop offset="1" stop-color="#1C3028"/></linearGradient>
+    <linearGradient id="leaf" x1="230" y1="418" x2="347" y2="536" gradientUnits="userSpaceOnUse"><stop stop-color="#C6DC9B"/><stop offset="1" stop-color="#719571"/></linearGradient>
+    <filter id="shadow" x="-45%" y="-35%" width="190%" height="190%"><feDropShadow dx="0" dy="26" stdDeviation="25" flood-color="#03080A" flood-opacity=".55"/></filter>
+    <filter id="smallShadow" x="-40%" y="-40%" width="180%" height="190%"><feDropShadow dx="0" dy="17" stdDeviation="18" flood-color="#03080A" flood-opacity=".4"/></filter>
+    <filter id="blur" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="36"/></filter>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse"><path d="M56 0H0V56" stroke="#C4D5CE" stroke-opacity=".03"/></pattern>
+  </defs>
+  <rect width="960" height="700" fill="#101720"/>
+  <rect width="960" height="700" fill="url(#grid)"/>
+  <ellipse cx="479" cy="345" rx="432" ry="335" fill="url(#atmosphere)"/>
+  <ellipse cx="486" cy="586" rx="206" ry="28" fill="#03090A" fill-opacity=".65" filter="url(#blur)"/>
+  <path d="M76 118H222M76 118V164M884 585H747M884 585V539" stroke="#D0E3BA" stroke-opacity=".18"/>
+  <ellipse cx="486" cy="350" rx="303" ry="211" transform="rotate(-19 486 350)" stroke="#B9D1A9" stroke-opacity=".1"/>
+  <ellipse cx="486" cy="350" rx="332" ry="232" transform="rotate(-19 486 350)" stroke="#B9D1A9" stroke-opacity=".045" stroke-dasharray="2 9"/>
+  <circle cx="783" cy="295" r="4" fill="#C9E89B"/>
+  <circle cx="199" cy="427" r="3" fill="#A6C79F" fill-opacity=".5"/>
+  <g transform="rotate(-9 466 350)" filter="url(#shadow)">
+    <rect x="336" y="123" width="260" height="454" rx="38" fill="url(#phone)" stroke="#A2B898" stroke-opacity=".48" stroke-width="1.5"/>
+    <rect x="343" y="130" width="246" height="440" rx="32" fill="#192A22"/>
+    <rect x="348" y="135" width="236" height="430" rx="28" fill="url(#cream)"/>
+    <path d="M335 208V242M335 257V280M597 242V289" stroke="#7D9574" stroke-width="2" stroke-linecap="round"/>
+    <rect x="430" y="146" width="72" height="16" rx="8" fill="#253B2D"/>
+    <circle cx="490" cy="154" r="3" fill="#50674D"/>
+    <path d="M372 194C370 180 382 175 391 178C393 192 383 200 372 194Z" fill="#426C47"/>
+    <path d="M374 193l11-11" stroke="#F3F3E1" stroke-opacity=".45" stroke-width="1.1" stroke-linecap="round"/>
+    <text x="402" y="191" fill="#34513B" font-family="Segoe UI,Arial,sans-serif" font-size="10" letter-spacing="2">FOCUS</text>
+    <circle cx="555" cy="186" r="11" stroke="#5D7954" stroke-opacity=".25"/>
+    <path d="M550 186h10m-5-5v10" stroke="#5D7954" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="466" y="235" text-anchor="middle" fill="#6F8164" font-family="Segoe UI,Arial,sans-serif" font-size="9" letter-spacing="2.5">ONE THING AT A TIME</text>
+    <circle cx="466" cy="335" r="81" stroke="#D8DFC9" stroke-width="7"/>
+    <circle cx="466" cy="335" r="81" stroke="url(#green)" stroke-width="7" stroke-linecap="round" stroke-dasharray="431 78" transform="rotate(-90 466 335)"/>
+    <circle cx="466" cy="335" r="68" stroke="#91A77F" stroke-opacity=".19" stroke-dasharray="1 7"/>
+    <circle cx="466" cy="254" r="4.5" fill="#C6DE9B" stroke="#EEF0DC" stroke-width="1.5"/>
+    <text x="466" y="346" text-anchor="middle" fill="#264C36" font-family="Segoe UI Light,Segoe UI,Arial,sans-serif" font-size="48" font-weight="300" letter-spacing="-1.5">25:00</text>
+    <text x="466" y="371" text-anchor="middle" fill="#7A8A6C" font-family="Segoe UI,Arial,sans-serif" font-size="8" letter-spacing="2">DEEP WORK</text>
+    <g fill="#6F8D5C"><circle cx="448" cy="431" r="3"/><circle cx="460" cy="431" r="3" fill-opacity=".3"/><circle cx="472" cy="431" r="3" fill-opacity=".3"/><circle cx="484" cy="431" r="3" fill-opacity=".3"/></g>
+    <rect x="379" y="458" width="174" height="41" rx="20.5" fill="#2D543C"/>
+    <path d="M407 473l9 6-9 6v-12Z" fill="#E5EDCE"/>
+    <text x="471" y="482" text-anchor="middle" fill="#E8EFDC" font-family="Segoe UI,Arial,sans-serif" font-size="10" letter-spacing="2">BEGIN</text>
+    <path d="M379 520H553" stroke="#A0AF8F" stroke-opacity=".25"/>
+    <text x="466" y="539" text-anchor="middle" fill="#89967A" font-family="Segoe UI,Arial,sans-serif" font-size="7" letter-spacing="2">A LITTLE SPACE TO FOCUS</text>
+    <rect x="437" y="552" width="58" height="3" rx="1.5" fill="#2C4F37" fill-opacity=".28"/>
+  </g>
+  <g transform="rotate(6 270 296)" filter="url(#smallShadow)">
+    <rect x="190" y="236" width="163" height="123" rx="17" fill="#E7EBD7" stroke="#F4F5E5" stroke-opacity=".45"/>
+    <text x="210" y="261" fill="#566F4B" font-family="Segoe UI,Arial,sans-serif" font-size="9" letter-spacing="1.8">MAKE ROOM</text>
+    <rect x="210" y="280" width="13" height="13" rx="4" fill="#BDD796"/>
+    <path d="M214 286l3 3 4-5" stroke="#41603A" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M233 286H328M233 313H305" stroke="#758C62" stroke-opacity=".38" stroke-width="4" stroke-linecap="round"/>
+    <rect x="210" y="307" width="13" height="13" rx="4" stroke="#A2B58D"/>
+    <path d="M210 340H329" stroke="#8CA17A" stroke-opacity=".25"/>
+  </g>
+  <g transform="rotate(7 684 433)" filter="url(#smallShadow)">
+    <rect x="600" y="365" width="178" height="154" rx="20" fill="url(#glass)" stroke="#B2CAA0" stroke-opacity=".35"/>
+    <text x="622" y="393" fill="#CBDCC0" font-family="Segoe UI,Arial,sans-serif" font-size="9" letter-spacing="1.8">YOUR RHYTHM</text>
+    <path d="M622 470H755" stroke="#A2B997" stroke-opacity=".18"/>
+    <g fill="#D0E7A4"><rect x="625" y="443" width="11" height="21" rx="4" fill-opacity=".4"/><rect x="644" y="429" width="11" height="35" rx="4" fill-opacity=".65"/><rect x="663" y="438" width="11" height="26" rx="4" fill-opacity=".5"/><rect x="682" y="414" width="11" height="50" rx="4"/><rect x="701" y="426" width="11" height="38" rx="4" fill-opacity=".72"/><rect x="720" y="418" width="11" height="46" rx="4" fill-opacity=".85"/><rect x="739" y="435" width="11" height="29" rx="4" fill-opacity=".55"/></g>
+    <g fill="#B1C49D" fill-opacity=".65"><circle cx="630" cy="485" r="1.5"/><circle cx="649" cy="485" r="1.5"/><circle cx="668" cy="485" r="1.5"/><circle cx="687" cy="485" r="1.5"/><circle cx="706" cy="485" r="1.5"/><circle cx="725" cy="485" r="1.5"/><circle cx="744" cy="485" r="1.5"/></g>
+  </g>
+  <g filter="url(#smallShadow)">
+    <path d="M305 524C266 519 238 486 244 451C281 449 313 480 305 524Z" fill="url(#leaf)"/>
+    <path d="M306 524C297 485 318 449 353 439C369 473 347 513 306 524Z" fill="#70977A"/>
+    <path d="M307 539C305 509 285 482 261 464M307 523C320 498 332 477 345 456" stroke="#385F46" stroke-opacity=".65" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(652 183)"><rect width="132" height="36" rx="18" fill="#2B4133" stroke="#C4DDA4" stroke-opacity=".25"/><circle cx="20" cy="18" r="3" fill="#D3EBAB"/><text x="34" y="22" fill="#D0DDC5" font-family="Segoe UI,Arial,sans-serif" font-size="9" letter-spacing="1.7">OFFLINE</text><path d="M110 15v7m-3-4 3-3 3 3" stroke="#A7C293" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <text x="76" y="620" fill="#859780" font-family="Segoe UI,Arial,sans-serif" font-size="10" letter-spacing="2">LESS NOISE. MORE PRESENCE.</text>
+  <path d="M76 640H884" stroke="#C8DABD" stroke-opacity=".1"/>
+</svg>
