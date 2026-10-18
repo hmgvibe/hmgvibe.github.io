@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="description" content="Secondary 是 Windows 副屏應用程式，整合自由排列的首頁組件、快捷導航與遊戲監測。你可以依照螢幕與使用習慣安排資訊，在日常工具與遊戲模式間切換。" />
+<meta name="description" content="Secondary v1.1.0 提供 Windows 11 與 Ubuntu／GNOME Linux 副屏工具，整合可編輯首頁組件、分組快捷導航與遊戲監測；也能透過區域網路連線模式，使用另一台設備查看監測資料、控制媒體與執行主電腦捷徑。" />
 <meta name="theme-color" content="#f5f4ef" />
 <title>Secondary｜詳細介紹 · hmgvibe</title>
 <link rel="canonical" href="https://hmgvibe.github.io/projects/secondary.html" />
@@ -22,12 +22,12 @@
 <div class="detail-stage">
 <div class="detail-hero-copy" data-reveal>
 <p class="detail-kicker"><span>PROJECT 03 / 08</span><span>YOUR SECOND SCREEN</span></p>
-<p class="category">桌面工具 · Windows 11</p>
+<p class="category">桌面工具 · Windows 11 · Linux（Ubuntu／GNOME）</p>
 <h1 id="detail-title">Secondary</h1>
 <p class="detail-tagline">把第二個螢幕變成自己的桌面控制中心。</p>
-<p class="detail-intro">Secondary 是 Windows 副屏應用程式，整合自由排列的首頁組件、快捷導航與遊戲監測。你可以依照螢幕與使用習慣安排資訊，在日常工具與遊戲模式間切換。</p>
+<p class="detail-intro">Secondary v1.1.0 是 Windows 11 與 Ubuntu／GNOME Linux 的副屏應用程式，整合可編輯的首頁組件、分組快捷導航與遊戲監測。沒有副屏時，也能在另一台 Windows 或 Linux 設備執行 Secondary，透過區域網路連接主電腦的「連接助手」，查看監測資料、控制媒體與執行已確認的捷徑。</p>
 <div class="actions"><a class="download" href="https://github.com/hmgvibe/Secondary/releases/latest" target="_blank" rel="noreferrer">下載 / 安裝 ↗</a><a class="source" href="https://github.com/hmgvibe/Secondary" target="_blank" rel="noreferrer">GitHub 原始碼 ↗</a></div>
-<p class="detail-meta">組件・快捷導航・遊戲監測</p>
+<p class="detail-meta">v1.1.0・Windows / Linux・連線模式</p>
 </div>
 <figure class="detail-visual" data-reveal>
 <div class="detail-visual-frame"><img src="../assets/secondary.svg" alt="" width="960" height="700" fetchpriority="high" decoding="async" /></div>
@@ -37,24 +37,32 @@
 </section>
 <div class="detail-section-nav"><span class="detail-nav-label">ON THIS PAGE</span><nav class="section-links" aria-label="本頁內容"><a href="#features">功能特色</a><a href="#getting-started">如何開始</a><a href="#requirements">系統需求</a><a href="#faq">常見問題</a></nav></div>
 <div class="detail-layout"><div class="detail-content">
-<section class="detail-section" id="overview" aria-labelledby="overview-title" data-reveal><p class="eyebrow"><span class="detail-section-number" aria-hidden="true">01</span>OVERVIEW</p><h2 id="overview-title">適合哪些使用情境？</h2><p>適合有第二個螢幕、希望隨時查看時間與系統狀態，或需要集中管理常用程式和快捷操作的 Windows 使用者。</p></section>
-<section class="detail-section" id="features" aria-labelledby="features-title" data-reveal><p class="eyebrow"><span class="detail-section-number" aria-hidden="true">02</span>FEATURES</p><h2 id="features-title">功能特色</h2><ul class="detail-features"><li><h3>自由排列組件</h3><p>加入時鐘、日曆、便箋、待辦、計數器與計時工具；拖動位置、獨立調整寬高，設定會保存到本機。</p></li>
-<li><h3>自訂首頁外觀</h3><p>使用本機圖片、影片或內建背景，搭配數字、翻頁或指針時鐘，調整成符合副螢幕的畫面。</p></li>
-<li><h3>快捷導航</h3><p>整理程式、檔案、資料夾、網站與捷徑，支援分組、搜尋、拖入與拖曳排序。</p></li>
-<li><h3>多步快捷操作</h3><p>編排開啟、等待、視窗快捷鍵與外部腳本等步驟；執行可取消，發生錯誤即停止。</p></li>
-<li><h3>遊戲監測</h3><p>以儀表呈現 CPU、記憶體、GPU、網路與歷史曲線；支援選擇程序與調整採樣頻率。</p></li>
-<li><h3>桌面資訊</h3><p>加入媒體控制、天氣與倒數日組件，管理導航欄位置、主題、快捷鍵與顯示器。</p></li></ul></section>
-<section class="detail-section" id="getting-started" aria-labelledby="start-title" data-reveal><p class="eyebrow"><span class="detail-section-number" aria-hidden="true">03</span>GETTING STARTED</p><h2 id="start-title">如何開始</h2><ol class="getting-started"><li><div><h3>下載並解壓縮</h3><p>從 GitHub Releases 下載 Windows x64 ZIP，解壓後執行 Secondary.App.exe；發行包包含所需的 .NET 執行環境。</p></div></li>
-<li><div><h3>設定顯示器</h3><p>在設定頁選擇副螢幕及全螢幕顯示，依習慣調整導航欄位置與尺寸。</p></div></li>
-<li><div><h3>安排首頁與快捷入口</h3><p>從「＋ 組件」加入資訊，拖動和縮放；在快捷導航建立常用的程式、資料夾或網站入口。</p></div></li>
-<li><div><h3>使用遊戲模式</h3><p>透過導航入口、Ctrl+Alt+G 或系統匣進入，選擇要監測的程序與採樣設定。</p></div></li></ol></section>
-<section class="detail-section" id="requirements" aria-labelledby="requirements-title" data-reveal><p class="eyebrow"><span class="detail-section-number" aria-hidden="true">04</span>REQUIREMENTS</p><h2 id="requirements-title">系統需求</h2><dl class="system-requirements"><div><dt>作業系統</dt><dd>Windows 11 x64。</dd></div>
-<div><dt>執行環境</dt><dd>發行 ZIP 已包含 .NET 執行環境。</dd></div>
-<div><dt>監測來源</dt><dd>幀率及部分硬體資料取決於 ETW 權限、感測來源與裝置支援。</dd></div></dl></section>
-<section class="detail-section" id="faq" aria-labelledby="faq-title" data-reveal><p class="eyebrow"><span class="detail-section-number" aria-hidden="true">05</span>GOOD TO KNOW</p><h2 id="faq-title">常見問題</h2><div class="faq-list"><details open><summary>FPS 顯示「—」代表什麼？</summary><p>代表目前沒有可用資料或存取權限。PresentMon 幀率採集受 ETW 權限限制，程式不會用示意數值代替未取得的資料。</p></details>
-<details><summary>關閉視窗後，程式會結束嗎？</summary><p>關閉視窗會隱藏到系統匣。使用系統匣的「退出 Secondary」才會結束程式。</p></details>
-<details><summary>自訂背景會上傳到雲端嗎？</summary><p>不會。背景只參照你選擇的本機檔案；檔案遺失或影片無法解碼時，會顯示原因並回退靜態背景。</p></details></div></section>
-<section class="detail-section documentation" aria-labelledby="docs-title" data-reveal><p class="eyebrow"><span class="detail-section-number" aria-hidden="true">06</span>DOCUMENTATION</p><h2 id="docs-title">完整說明與回饋</h2><p>詳細功能與安裝方式以項目 README 為準。遇到問題或有新想法，可在 GitHub Issues 提出。</p><div class="doc-links"><a href="https://github.com/hmgvibe/Secondary#readme" target="_blank" rel="noreferrer">閱讀項目 README ↗</a><a href="https://github.com/hmgvibe/Secondary/blob/main/docs/redesign-stage-3.md" target="_blank" rel="noreferrer">快捷導航說明 ↗</a><a href="https://github.com/hmgvibe/Secondary/issues" target="_blank" rel="noreferrer">問題與建議 ↗</a></div></section>
+<section class="detail-section" id="overview" aria-labelledby="overview-title" data-reveal><p class="eyebrow"><span class="detail-section-number" aria-hidden="true">01</span>OVERVIEW</p><h2 id="overview-title">適合哪些使用情境？</h2><p>適合希望把時間、日常資訊、快捷操作與遊戲監測放在副螢幕的使用者。也可以利用另一台 Windows 或 Linux 電腦作為連線設備，查看 Windows 主電腦的資料並執行支援的操作。</p></section>
+<section class="detail-section" id="features" aria-labelledby="features-title" data-reveal><p class="eyebrow"><span class="detail-section-number" aria-hidden="true">02</span>FEATURES</p><h2 id="features-title">功能特色</h2><ul class="detail-features"><li><h3>Windows 與 Linux 版本</h3><p>提供 Windows 11 x64 與 Ubuntu／GNOME Linux x86_64 版本。Linux 可選 .deb 安裝包或免安裝 AppImage，各發行包均包含所需的 .NET 執行環境。</p></li>
+<li><h3>區域網路連線與配對</h3><p>Windows 主電腦啟動連接助手，另一台 Windows 或 Linux 設備搜尋並輸入 6 位數配對碼。只在同一區域網路使用，後續以 TLS 1.3 加密並只接受已配對設備。</p></li>
+<li><h3>在另一台設備操作主電腦</h3><p>查看主電腦的遊戲監測，選擇主機程序並同步進出遊戲模式；媒體組件可控制主機播放，快捷導航也能加入並執行存放在主電腦的捷徑。</p></li>
+<li><h3>自由排列與對齊組件</h3><p>拖動組件，從四邊或四角縮放；接近邊線或中心線時會吸附對齊，Alt 可暫時略過。支援鍵盤調整、Esc 取消本次拖曳，也能從「選取現有組件」找回被遮住的內容。</p></li>
+<li><h3>日常資訊與首頁外觀</h3><p>加入時鐘、日曆、便箋、待辦、計數器、計時工具、媒體、天氣及倒數日。提供三種時鐘樣式與本機圖片、影片背景；播放器與影片解碼能力依平台環境而定。</p></li>
+<li><h3>以分組整理快捷導航</h3><p>以分組選單篩選程式、檔案、資料夾與網站，支援拖入、排序及跨組移動，可選縱向或橫向排列。Windows 支援 .lnk；Linux 提供 .desktop 啟動器。</p></li>
+<li><h3>可確認的多步操作</h3><p>以開啟、等待與外部腳本編排操作；Windows 另有指定視窗快捷鍵步驟。首次執行或內容變更會要求確認，執行可取消且失敗即停；取消不會撤銷已完成的動作。</p></li>
+<li><h3>依實際來源呈現遊戲監測</h3><p>呈現 CPU、記憶體、GPU、網路、幀率與歷史曲線，可選程序及高低採樣。來源分別標示有效、等待、過期或失敗；無權限或無資料顯示「—」，不使用示意數值。</p></li></ul></section>
+<section class="detail-section" id="getting-started" aria-labelledby="start-title" data-reveal><p class="eyebrow"><span class="detail-section-number" aria-hidden="true">03</span>GETTING STARTED</p><h2 id="start-title">如何開始</h2><ol class="getting-started"><li><div><h3>選擇平台並下載</h3><p>從 GitHub Releases 下載適合平台的發行包。Windows 解壓 ZIP 後執行 Secondary.App.exe；Ubuntu／GNOME 可安裝 .deb 或開啟 AppImage，均不需另裝 .NET 執行環境。</p></div></li>
+<li><div><h3>選擇副屏或連線模式</h3><p>直接使用本機副螢幕時，不需要連接助手。只有要讓另一台設備連接主電腦時，才在 Windows 11 x64 主電腦下載連接助手 ZIP，解壓並執行 Secondary.Connect.exe。</p></div></li>
+<li><div><h3>設定顯示器或完成配對</h3><p>本機使用可在設定選擇顯示器與全螢幕。連線模式則讓兩台電腦位於同一區域網路，在主機助手按「開始配對」，於設備端搜尋主機並輸入 6 位數配對碼。</p></div></li>
+<li><div><h3>配置組件與遊戲監測</h3><p>從「＋ 組件」安排首頁，以分組整理快捷入口，再進入遊戲模式選擇程序與採樣設定。Linux 的本機遊戲 FPS 需另行設定 MangoHud；連線模式使用主電腦的監測來源。</p></div></li></ol></section>
+<section class="detail-section" id="requirements" aria-labelledby="requirements-title" data-reveal><p class="eyebrow"><span class="detail-section-number" aria-hidden="true">04</span>REQUIREMENTS</p><h2 id="requirements-title">系統需求</h2><dl class="system-requirements"><div><dt>作業系統</dt><dd>Windows 11 x64，或 Ubuntu／GNOME（Wayland）Linux x86_64。</dd></div>
+<div><dt>執行環境</dt><dd>Windows、Linux 與連接助手發行包均已包含所需的 .NET 執行環境。</dd></div>
+<div><dt>連線模式</dt><dd>主電腦須為 Windows 11 x64 並執行 Secondary.Connect.exe；連線設備可用 Windows 或 Linux。兩端須在同一區域網路，配對後以 TLS 1.3 加密連線。</dd></div>
+<div><dt>Windows 監測</dt><dd>PresentMon 幀率需要足夠的 ETW 權限；CPU 底層溫度、功率與頻率需要支援的硬體、PawnIO 及裝置存取權限。程式不自動提權或安裝驅動。</dd></div>
+<div><dt>Linux 本機 FPS</dt><dd>需自行安裝 MangoHud，並在遊戲啟動選項加入 Secondary 提供的設定。連接 Windows 主電腦時則使用主機的 PresentMon，不需為此另外設定設備端 MangoHud。</dd></div></dl></section>
+<section class="detail-section" id="faq" aria-labelledby="faq-title" data-reveal><p class="eyebrow"><span class="detail-section-number" aria-hidden="true">05</span>GOOD TO KNOW</p><h2 id="faq-title">常見問題</h2><div class="faq-list"><details open><summary>連線模式可以鏡像主電腦畫面嗎？</summary><p>不會傳送主電腦畫面或串流遊戲畫面。支援的操作是遊戲監測、同步進出遊戲模式、主機媒體控制與已確認的主機捷徑；連線設備保留自己的首頁與本機功能。僅供同一區域網路使用。</p></details>
+<details><summary>從設備執行主電腦捷徑，需要確認嗎？</summary><p>每個主機捷徑首次執行，或步驟內容變更後，都需在主電腦畫面確認。設備端只能等待確認，遊戲模式中不會執行這些捷徑。</p></details>
+<details><summary>FPS 或硬體資料顯示「—」代表什麼？</summary><p>代表該來源沒有可用資料或權限。Windows FPS 受 ETW 權限限制，成功實機採集仍待有足夠權限的環境驗證；只安裝 PawnIO 也不保證能讀取所有感測值。Linux 本機 FPS 需可用的 MangoHud 記錄，程式不以示意數值代替缺失資料。</p></details>
+<details><summary>Windows 更新後會保留原本設定嗎？</summary><p>會沿用既有設定與布局。更新前先從系統匣完全退出舊程式，將新版 ZIP 解壓到新目錄，再啟動其中的 Secondary.App.exe。連接助手只在使用連線模式時需要。</p></details>
+<details><summary>Linux 版本的驗收進度如何？</summary><p>v1.1.0 已提供 Ubuntu／GNOME 發行包，包含首頁、快捷導航與遊戲模式。長時間運作、無障礙與實體副屏驗收仍在進行；實際監測資料依裝置、驅動與權限而定。</p></details>
+<details><summary>關閉 Windows 視窗後，程式會結束嗎？</summary><p>關閉視窗會隱藏到系統匣。使用系統匣的「退出 Secondary」才會結束程式。</p></details>
+<details><summary>自訂背景會上傳到雲端嗎？</summary><p>不會。背景只參照你選擇的本機檔案，不複製或上傳。檔案遺失或影片無法解碼時會顯示原因並回退靜態背景，程式不會自動安裝編解碼器。</p></details></div></section>
+<section class="detail-section documentation" aria-labelledby="docs-title" data-reveal><p class="eyebrow"><span class="detail-section-number" aria-hidden="true">06</span>DOCUMENTATION</p><h2 id="docs-title">完整說明與回饋</h2><p>完整功能、安裝與各平台限制以項目 README 為準。遇到問題或有新想法，可在 GitHub Issues 提出。</p><div class="doc-links"><a href="https://github.com/hmgvibe/Secondary#readme" target="_blank" rel="noreferrer">閱讀項目 README ↗</a><a href="https://github.com/hmgvibe/Secondary/blob/main/docs/releases/v1.1.0.md" target="_blank" rel="noreferrer">v1.1.0 更新說明 ↗</a><a href="https://github.com/hmgvibe/Secondary/blob/main/docs/linux-plan.md" target="_blank" rel="noreferrer">Linux 版說明 ↗</a><a href="https://github.com/hmgvibe/Secondary/blob/main/docs/connection-plan.md" target="_blank" rel="noreferrer">連線模式說明 ↗</a><a href="https://github.com/hmgvibe/Secondary/blob/main/docs/redesign-stage-3.md" target="_blank" rel="noreferrer">快捷導航說明 ↗</a><a href="https://github.com/hmgvibe/Secondary/issues" target="_blank" rel="noreferrer">問題與建議 ↗</a></div></section>
 <nav class="adjacent-projects" data-reveal aria-label="其他項目"><a href="./phnomy.html"><span>← 上一個項目</span>Phnomy</a><a href="./qrtrans.html"><span>下一個項目 →</span>QRTrans</a></nav>
 </div><aside class="detail-sidebar" aria-label="其他項目"><a class="back-to-projects" href="../index.html#secondary">← 回到所有項目</a><p class="detail-sidebar-label">EXPLORE PROJECTS</p><nav><a href="./classflow.html">ClassFlow</a>
 <a href="./phnomy.html">Phnomy</a>

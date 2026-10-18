@@ -10,7 +10,7 @@
 
 ## 瀏覽體驗
 
-首頁以項目展廳呈現八個工具，支援 Android、Windows 與 Nextcloud 平台篩選。
+首頁以項目展廳呈現八個工具，支援 Android、Windows、Linux 與 Nextcloud 平台篩選。
 項目卡片和詳細頁使用獨立 SVG 概念視覺；這些插圖不是應用程式實際截圖。
 動態包含捲動進場、卡片光影、首頁視差、懸浮物件與瀏覽器支援時的跨頁轉場。
 會遵循系統「減少動態效果」，觸控裝置不啟用滑鼠視差，首頁物件離開畫面時暫停循環動畫。
@@ -21,7 +21,7 @@
 
 - ClassFlow
 - Phnomy
-- Secondary
+- Secondary（Windows／Linux；v1.1.0 起提供區域網路連線模式）
 - QRTrans
 - NextPhoto
 - CloudNote
