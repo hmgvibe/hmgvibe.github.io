@@ -34,10 +34,15 @@ ClassFlow → Phnomy → Secondary → QRTrans → NextPhoto → CloudNotes（�
 
 ## 快取版本
 
-CSS／JS 以 `?v=N` 防快取（目前 `v=8`）。改了 `styles.css`、`detail.css`、`script.js` 或 `theme.js` 時，
+CSS／JS 以 `?v=N` 防快取（目前 `v=9`）。改了 `styles.css`、`detail.css`、`script.js` 或 `theme.js` 時，
 把所有 HTML 中的 `v=N` 一起加 1。只改文字內容不必調整。
 
 ## 檢查
 
 - 本機預覽：`python3 -m http.server 8000`
 - 改完確認淺色／深色模式、手機寬度、平台篩選與詳細頁連結都正常。
+
+## 功能分區
+
+詳細頁的功能清單可用 `.feature-groups` 分區（範例：`projects/secondary.html` 的首頁／快捷導航／性能監控／特色功能）。
+每區為 `section.feature-group`，項目標題用 `h4`，編號自動顯示為 `01.1`；新功能可加 `<span class="feature-new">vX.Y.Z 新增</span>`。

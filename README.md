@@ -21,7 +21,7 @@
 
 - ClassFlow
 - Phnomy
-- Secondary（Windows／Linux；v1.1.0 起提供區域網路連線模式）
+- Secondary（Windows／Linux；v1.1.0 起提供區域網路連線模式，v1.2.0 起可匯出／匯入快捷導航）
 - QRTrans
 - NextPhoto
 - CloudNote
