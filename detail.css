@@ -319,6 +319,7 @@
 }
 
 .detail-page .detail-features h3,
+.detail-page .detail-features h4,
 .detail-page .getting-started h3 {
   margin: 0 0 12px;
   color: var(--ink);
@@ -334,6 +335,76 @@
   color: var(--muted);
   font-size: 15px;
   line-height: 1.85;
+}
+
+.detail-page .feature-group-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 30px 0 0;
+}
+
+.detail-page .feature-group-nav a {
+  padding: 9px 18px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 13px;
+  transition: border-color .2s ease, color .2s ease;
+}
+
+.detail-page .feature-group-nav a:hover { border-color: var(--accent); color: var(--ink); }
+
+.detail-page .feature-groups { counter-reset: feature-group; }
+
+.detail-page .feature-group {
+  scroll-margin-top: 72px;
+  margin-top: 64px;
+  counter-increment: feature-group;
+}
+
+.detail-page .feature-group-label {
+  margin: 0 0 12px;
+  color: var(--accent);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: .16em;
+}
+
+.detail-page .feature-group-head h3 {
+  margin: 0;
+  color: var(--ink);
+  font-size: clamp(22px, 2vw, 27px);
+  font-weight: 500;
+  letter-spacing: -.02em;
+  line-height: 1.4;
+}
+
+.detail-page .feature-group-head > p:last-child {
+  max-width: 680px;
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.85;
+}
+
+.detail-page .feature-group .detail-features { margin-top: 28px; }
+
+.detail-page .feature-group .detail-features li::before {
+  content: counter(feature-group, decimal-leading-zero) "." counter(feature);
+}
+
+.detail-page .feature-new {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 1px 9px;
+  border-radius: 999px;
+  background: var(--accent-fill);
+  color: var(--accent-ink);
+  font-size: 11px;
+  font-weight: 550;
+  line-height: 1.8;
+  vertical-align: 1px;
 }
 
 .detail-page .getting-started {
@@ -576,7 +647,10 @@
   .detail-page .detail-section h2 { font-size: 28px; margin-bottom: 24px; }
   .detail-page .detail-section > p:not(.eyebrow) { font-size: 15px; }
   .detail-page .detail-features { margin-top: 32px; gap: 0 28px; }
-  .detail-page .detail-features h3, .detail-page .getting-started h3 { font-size: 17px; }
+  .detail-page .detail-features h3, .detail-page .detail-features h4, .detail-page .getting-started h3 { font-size: 17px; }
+  .detail-page .feature-group { margin-top: 48px; }
+  .detail-page .feature-group-nav { margin-top: 24px; }
+  .detail-page .feature-group .detail-features { margin-top: 20px; }
   .detail-page .getting-started > li { grid-template-columns: 36px 1fr; gap: 16px; }
   .detail-page .system-requirements > div { grid-template-columns: 110px 1fr; gap: 18px; }
   .detail-page .adjacent-projects { padding-top: 30px; gap: 24px; }
