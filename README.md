@@ -8,6 +8,14 @@
 
 右上角可切換深色／淺色模式。首次開啟依照系統偏好，手動切換後在此瀏覽器記住選擇。
 
+網站提供繁體與簡體中文（`/zh-hans/`）。首次開啟依照瀏覽器語言自動選擇一次，之後可用右上角「简体／繁體」切換並記住選擇。
+簡體頁面由繁體頁面自動轉換產生，請只修改繁體頁面，再執行：
+
+```bash
+pip install opencc
+python3 tools/build-zh-hans.py
+```
+
 ## 瀏覽體驗
 
 首頁以項目展廳呈現九個工具，支援 Android、Windows、Linux 與 Nextcloud 平台篩選。
@@ -57,5 +65,7 @@ python -m http.server 8000
 - `detail.css`：詳細頁的排版、固定目錄與功能段落
 - `assets/*.svg`：九個項目的概念視覺
 - `script.js`：平台篩選、捲動目錄、進場動態、滑鼠互動與頁尾年份
-- `theme.js`：系統配色偏好、主題切換與本機偏好保存
+- `theme.js`：系統配色偏好、主題切換、語言自動選擇與本機偏好保存
+- `zh-hans/`：簡體中文版（自動產生，勿手動修改）
+- `tools/build-zh-hans.py`：從繁體頁面產生簡體版（OpenCC 轉換與用語修正）
 - `.nojekyll`：讓 GitHub Pages 直接提供靜態檔案

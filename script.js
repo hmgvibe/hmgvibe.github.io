@@ -42,7 +42,7 @@
           );
         }
       }
-      if (count) count.textContent = `${String(visible).padStart(2, "0")} 個項目`;
+      if (count) count.textContent = `${String(visible).padStart(2, "0")} ${root.lang === "zh-Hans" ? "个项目" : "個項目"}`;
     });
   }
 
