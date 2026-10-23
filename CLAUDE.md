@@ -3,6 +3,15 @@
 hmgvibe 項目官網，純靜態 HTML／CSS／JS，無建置步驟。推送到 `main` 後由 GitHub Pages 自動發佈。
 網站文字一律使用繁體中文（`zh-Hant`），英文只用於小型裝飾標籤（如 `FEATURES`、`CONCEPT VISUAL`）。
 
+## 簡體中文版（重要）
+
+- 繁體頁面（`index.html`、`projects/*.html`）是唯一來源；`zh-hans/` 由腳本產生，**不要手動修改**。
+- 每次改動繁體頁面後都要執行 `python3 tools/build-zh-hans.py`（需 `pip install opencc`），並一起提交 `zh-hans/`。
+  提交前可用 `python3 tools/build-zh-hans.py --check` 確認已同步。
+- 轉換用 OpenCC `tw2sp`（含大陸用語），漏轉或誤轉的詞加到腳本的 `PHRASES`。
+- 新增項目頁時腳本會自動產生對應簡體頁；新頁面要有 hreflang 三行與 `.lang-switch` 連結（複製現有頁面即可）。
+- `theme.js` 首次造訪會依瀏覽器語言自動跳轉一次，之後記住選擇；`theme.js`、`script.js` 裡的介面文字有繁簡兩份。
+
 ## 內容來源
 
 - 項目資訊以 `https://github.com/hmgvibe/<Repo>` 的 README 與 Releases 為準，不自行推測功能。
@@ -32,10 +41,11 @@ ClassFlow → TouchWrite → Phnomy → Secondary → QRTrans → NextPhoto → 
 - 每個 `projects/*.html`：`detail-kicker` 的 `PROJECT NN / TT`、`figcaption` 的 `NN — TT`、
   側欄 `detail-sidebar` 清單、相鄰頁的上一個／下一個連結。
 - `README.md`：項目數量與清單。
+- 執行 `python3 tools/build-zh-hans.py` 產生簡體版。
 
 ## 快取版本
 
-CSS／JS 以 `?v=N` 防快取（目前 `v=9`）。改了 `styles.css`、`detail.css`、`script.js` 或 `theme.js` 時，
+CSS／JS 以 `?v=N` 防快取（目前 `v=10`）。改了 `styles.css`、`detail.css`、`script.js` 或 `theme.js` 時，
 把所有 HTML 中的 `v=N` 一起加 1。只改文字內容不必調整。
 
 ## 檢查
