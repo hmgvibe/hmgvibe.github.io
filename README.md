@@ -10,7 +10,7 @@
 
 ## 瀏覽體驗
 
-首頁以項目展廳呈現八個工具，支援 Android、Windows、Linux 與 Nextcloud 平台篩選。
+首頁以項目展廳呈現九個工具，支援 Android、Windows、Linux 與 Nextcloud 平台篩選。
 項目卡片和詳細頁使用獨立 SVG 概念視覺；這些插圖不是應用程式實際截圖。
 動態包含捲動進場、卡片光影、首頁視差、懸浮物件與瀏覽器支援時的跨頁轉場。
 會遵循系統「減少動態效果」，觸控裝置不啟用滑鼠視差，首頁物件離開畫面時暫停循環動畫。
@@ -20,6 +20,7 @@
 目前作品內容整理自 `https://github.com/hmgvibe` 的公開 repositories、README 與 Releases：
 
 - ClassFlow
+- TouchWrite（Windows 觸控板手寫輸入）
 - Phnomy
 - Secondary（Windows／Linux；v1.1.0 起提供區域網路連線模式，v1.2.0 起可匯出／匯入快捷導航）
 - QRTrans
@@ -51,10 +52,10 @@ python -m http.server 8000
 ## 檔案
 
 - `index.html`：網站內容與 SEO 標題
-- `projects/*.html`：八個項目的獨立詳細介紹頁
+- `projects/*.html`：九個項目的獨立詳細介紹頁
 - `styles.css`：完整視覺、桌面與手機版面
 - `detail.css`：詳細頁的排版、固定目錄與功能段落
-- `assets/*.svg`：八個項目的概念視覺
+- `assets/*.svg`：九個項目的概念視覺
 - `script.js`：平台篩選、捲動目錄、進場動態、滑鼠互動與頁尾年份
 - `theme.js`：系統配色偏好、主題切換與本機偏好保存
 - `.nojekyll`：讓 GitHub Pages 直接提供靜態檔案

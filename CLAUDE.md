@@ -9,11 +9,12 @@ hmgvibe 項目官網，純靜態 HTML／CSS／JS，無建置步驟。推送到 `
 - 下載按鈕固定連到 `releases/latest`，發新版通常不必改連結。
 - `assets/*.svg` 是概念視覺，不是實際截圖；不要描述成截圖。
 
-## 項目順序（目前 8 個）
+## 項目順序（目前 9 個）
 
-ClassFlow → Phnomy → Secondary → QRTrans → NextPhoto → CloudNotes（檔名 `cloudnote`）→ MPad → Beautiful Waste
+ClassFlow → TouchWrite → Phnomy → Secondary → QRTrans → NextPhoto → CloudNotes（檔名 `cloudnote`）→ MPad → Beautiful Waste
 
 上一個／下一個項目連結是循環的（最後一個接回第一個）。
+新項目慣例放在第 2 位（ClassFlow 之後），首頁卡片分類加「 · NEW」，並移除上一個新項目的 NEW。
 
 ## 更新現有項目（例如新版本）
 
