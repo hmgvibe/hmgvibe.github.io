@@ -23,7 +23,7 @@ hmgvibe 項目官網，純靜態 HTML／CSS／JS，無建置步驟。推送到 `
 ClassFlow → TouchWrite → Phnomy → Secondary → QRTrans → NextPhoto → CloudNotes（檔名 `cloudnote`）→ MPad → Beautiful Waste
 
 上一個／下一個項目連結是循環的（最後一個接回第一個）。
-新項目慣例放在第 2 位（ClassFlow 之後）。首頁工具的 `.tool-name` 加 `<span class="tool-new">NEW</span>`，`<a class="tool">` 加 `data-standby`（有滑鼠時預設亮著），並移除上一個新項目的這兩處。
+新項目慣例放在第 2 位（ClassFlow 之後）。首頁工具的 `.tool-name` 加 `<span class="tool-new">NEW</span>`，並移除上一個新項目的 NEW。所有工具預設都不亮，只有懸停或聚焦時才亮。
 
 ## 更新現有項目（例如新版本）
 
